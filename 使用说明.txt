@@ -1,0 +1,11 @@
+使用方法：
+1. 运行local目录下的goagent.exe，电脑右下角看到一个小图标表示代理已经就绪
+2. 设置浏览器的代理服务器为127.0.0.1，端口8087，所有协议均使用相同的代理
+3. 测试网址：www.mitbbs.com，如果能打开说明代理成功
+
+附：全自动翻墙
+1. 不能使用IE，要使用Google的Chrome浏览器
+2. 在Chrome浏览器中安装Proxy SwitchySharp插件，安装网址：https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm?hl=zh-CN
+3. 在SwitchySharp插件的设置中，导入规则SwitchyOptions.bak文件
+4. 将goagent.exe创建一个快捷方式加入到开始菜单的启动里面
+5. 已完成，每次开机会发现代理软件自动启动，并且仅对被过滤的网站使用代理，国内网站不会使用代理，速度和自由并存
