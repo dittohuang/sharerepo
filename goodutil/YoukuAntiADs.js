@@ -46,9 +46,9 @@
  */
 
 (function(document) {
-    var loader = 'https://github.com/dittohuang/sharerepo/raw/master/goodutil/youku/loader.swf';
-    var ku6 = 'https://github.com/dittohuang/sharerepo/raw/master/goodutil/player/ku6.swf';
-    var iqiyi = 'https://github.com/dittohuang/sharerepo/raw/master/goodutil/player/iqiyi.swf';
+    var loader = 'https://haoutil.googlecode.com/svn/trunk/youku/loader.swf';
+    var ku6 = 'https://haoutil.googlecode.com/svn/trunk/player/ku6.swf';
+    var iqiyi = 'https://haoutil.googlecode.com/svn/trunk/player/iqiyi.swf';
     var players = {
         'youku': {
             find: /http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/(q?player.*|loader)\.swf/,
